@@ -70,13 +70,13 @@ divs.forEach((d) => {
     d.classList.toggle(`background`);
 });
 // OR
-document.querySelectorAll(`div`).forEach(function(d){
-    d.classList.toggle(`background`);
-});
+// document.querySelectorAll(`div`).forEach(function(d){
+//     d.classList.toggle(`background`);
+// });
 // OR
-for (d of divs){
-    d.classList.toggle(`background`);
-}
+// for (d of divs){
+//     d.classList.toggle(`background`);
+// }
 
 // 14a
 const avengers = [
@@ -99,9 +99,9 @@ function adding (a){
 adding(avengers);
 
 // OR
-for (a of avengers){
-    body.append(a + ` `)
-}
+// for (a of avengers){
+//     body.append(a + ` `)
+// }
 
 // OR
 
